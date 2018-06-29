@@ -48,5 +48,31 @@ namespace Chapter2
                 myLable.Text = "x isn't 10";
             }
         }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            int someValue = 4;
+            string name = "hello";
+            if ((someValue == 3) && (name == "joe"))
+            {
+                myLable.Text = "x is 3 and name is Joe";
+            }
+            myLable.Text = "this line runs no matter what";
+
+        }
+
+        private void button4_Click(object sender, RoutedEventArgs e)
+        {
+            int count = 0;
+            while(count < 10)
+            {
+                count++;
+            }
+            for(int i = 0; i<5; i++)
+            {
+                count--;
+            }
+            myLable.Text = "The answer is " + count;
+        }
     }
 }
