@@ -18,9 +18,10 @@
             <RowDefinition Height="67*"/>
             <RowDefinition Height="68*"/>
         </Grid.RowDefinitions>
-        <Button x:Name="button1" Content="Show a message" HorizontalAlignment="Left" Margin="375,163,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="Show a message" HorizontalAlignment="Left" Margin="375,163,0,0" VerticalAlignment="Top" Click="button1_Click"/>
         <Button x:Name="button2" Content="If/else" HorizontalAlignment="Center" Margin="0,173,0,0" VerticalAlignment="Top" Grid.Column="1"/>
         <Button x:Name="button3" Content="Another conditional test" HorizontalAlignment="Left" Margin="375,168,0,0" Grid.Row="1" VerticalAlignment="Top"/>
         <Button x:Name="button4" Content="A loop" Grid.Column="1" HorizontalAlignment="Left" Margin="392,168,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <TextBlock x:Name="myLable" HorizontalAlignment="Left" Margin="358,115,0,0" Grid.Row="2" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="237" Style="{StaticResource BodyTextBlockStyle}"/>
     </Grid>
 </Page>
