@@ -23,5 +23,8 @@
         <Button x:Name="button3" Content="Another conditional test" HorizontalAlignment="Left" Margin="375,168,0,0" Grid.Row="1" VerticalAlignment="Top" Click="button3_Click"/>
         <Button x:Name="button4" Content="A loop" Grid.Column="1" HorizontalAlignment="Left" Margin="392,168,0,0" Grid.Row="1" VerticalAlignment="Top" Click="button4_Click"/>
         <TextBlock x:Name="myLable" HorizontalAlignment="Left" Margin="358,115,0,0" Grid.Row="2" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Width="237" Style="{StaticResource BodyTextBlockStyle}"/>
+        <Button x:Name="changeButton" Content="Change label" Grid.Column="1" HorizontalAlignment="Left" Margin="179,85,0,0" Grid.Row="2" VerticalAlignment="Top" Click="changeButton_Click"/>
+        <CheckBox x:Name="checkbox1" Content="Enable label changing" Grid.Column="1" HorizontalAlignment="Left" Margin="424,80,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+        <TextBlock x:Name="labelToChange" Grid.Column="1" HorizontalAlignment="Left" Margin="304,205,0,0" Grid.Row="2" Text="Press the button to change my text" TextWrapping="Wrap" VerticalAlignment="Top"/>
     </Grid>
 </Page>

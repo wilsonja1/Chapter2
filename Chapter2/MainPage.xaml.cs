@@ -74,5 +74,24 @@ namespace Chapter2
             }
             myLable.Text = "The answer is " + count;
         }
+
+        private void changeButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (checkbox1.IsChecked == true)
+            {
+                if (labelToChange.Text == "Right") {
+                    labelToChange.HorizontalAlignment = HorizontalAlignment.Left;
+                    labelToChange.Text = "Left";
+                }
+                else {
+                    labelToChange.HorizontalAlignment = HorizontalAlignment.Right;
+                    labelToChange.Text = "Right";
+                }
+            }
+            else
+            {
+                labelToChange.Text = "Text changing is disabled";
+            }
+        }
     }
 }
