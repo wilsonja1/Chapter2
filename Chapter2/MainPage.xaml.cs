@@ -35,5 +35,18 @@ namespace Chapter2
             double d = Math.PI / 2;
             myLable.Text = "name is " + name + "\nx is " + x + "\nd is " + d;
         }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            int x = 10;
+            if(x == 10)
+            {
+                myLable.Text = "x must be 10";
+            }
+            else
+            {
+                myLable.Text = "x isn't 10";
+            }
+        }
     }
 }
