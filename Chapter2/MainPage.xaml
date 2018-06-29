@@ -9,6 +9,18 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="179*"/>
+            <ColumnDefinition Width="196*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="65*"/>
+            <RowDefinition Height="67*"/>
+            <RowDefinition Height="68*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="button1" Content="Show a message" HorizontalAlignment="Left" Margin="375,163,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button2" Content="If/else" HorizontalAlignment="Center" Margin="0,173,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Button x:Name="button3" Content="Another conditional test" HorizontalAlignment="Left" Margin="375,168,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Button x:Name="button4" Content="A loop" Grid.Column="1" HorizontalAlignment="Left" Margin="392,168,0,0" Grid.Row="1" VerticalAlignment="Top"/>
     </Grid>
 </Page>
